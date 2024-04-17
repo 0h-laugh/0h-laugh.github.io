@@ -18,7 +18,7 @@ body {
 }
 
 .terminal-header {
-    background-color: #2E3436; /* GNOME Terminal background color */
+    background-color: #30FFF2; /* GNOME Terminal background color */
     padding: 5px;
     display: flex;
     justify-content: space-between;
