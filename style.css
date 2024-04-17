@@ -1,7 +1,7 @@
 body {
-    font-family: "Ubuntu Mono", monospace;
-    background-color: #2E3436; /* Dark gray */
-    color: #FFFFFF; /* White */
+    font-family: monospace;
+    background-color: #2E3436; /* GNOME Terminal background color */
+    color: #FFFFFF; /* GNOME Terminal text color */
     margin: 0;
     padding: 0;
     display: flex;
@@ -11,29 +11,65 @@ body {
 }
 
 .terminal {
-    background-color: #000000; /* Black */
-    border: 2px solid #4E9A06; /* Green */
+    background-color: #000000; /* GNOME Terminal border color */
+    border: 2px solid #4E9A06; /* GNOME Terminal border color */
     border-radius: 5px;
-    padding: 20px;
     width: 600px;
 }
 
+.terminal-header {
+    background-color: #2E3436; /* GNOME Terminal background color */
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.terminal-buttons {
+    display: flex;
+}
+
+.terminal-buttons > div {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.close {
+    background-color: #D9534F; /* GNOME Terminal close button color */
+}
+
+.minimize {
+    background-color: #F0AD4E; /* GNOME Terminal minimize button color */
+}
+
+.maximize {
+    background-color: #5BC0DE; /* GNOME Terminal maximize button color */
+}
+
+.terminal-title {
+    color: #FFFFFF; /* GNOME Terminal text color */
+}
+
+.terminal-body {
+    padding: 20px;
+}
+
 .prompt {
-    color: #4E9A06; /* Green */
+    color: #4E9A06; /* GNOME Terminal prompt color */
     font-weight: bold;
 }
 
 .command {
     margin-top: 10px;
-    color: #FFFFFF; /* White */
 }
 
 .command-output {
-    background-color: #000000; /* Black */
-    border: 1px solid #4E9A06; /* Green */
+    background-color: #000000; /* GNOME Terminal background color */
+    border: 1px solid #4E9A06; /* GNOME Terminal border color */
     border-radius: 5px;
     padding: 10px;
     margin-top: 10px;
     white-space: pre-wrap;
-    color: #FFFFFF; /* White */
 }
