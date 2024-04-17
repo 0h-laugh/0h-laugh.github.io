@@ -12,7 +12,7 @@ body {
 
 .terminal {
     background-color: #000000; /* GNOME Terminal border color */
-    border: 2px solid #4E9A06; /* GNOME Terminal border color */
+    border: 2px solid #30FFF2; /* GNOME Terminal border color */
     border-radius: 5px;
     width: 600px;
 }
@@ -57,7 +57,7 @@ body {
 }
 
 .prompt {
-    color: #4E9A06; /* GNOME Terminal prompt color */
+    color: #30FFF2; /* GNOME Terminal prompt color */
     font-weight: bold;
 }
 
@@ -67,7 +67,7 @@ body {
 
 .command-output {
     background-color: #000000; /* GNOME Terminal background color */
-    border: 1px solid #4E9A06; /* GNOME Terminal border color */
+    border: 1px solid #30FFF2; /* GNOME Terminal border color */
     border-radius: 5px;
     padding: 10px;
     margin-top: 10px;
