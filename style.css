@@ -1,0 +1,36 @@
+body {
+    font-family: monospace;
+    background-color: #353535;
+    color: #30FFF2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.terminal {
+    background-color: #353535;
+    border: 1px solid #30FFF2;
+    border-radius: 5px;
+    padding: 20px;
+    width: 400px;
+}
+
+.prompt {
+    color: #30FFF2;
+}
+
+.command {
+    margin-top: 10px;
+}
+
+.command-output {
+    background-color: #353535;
+    border: 1px solid #30FFF2;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    white-space: pre-wrap;
+}
