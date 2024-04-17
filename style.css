@@ -1,7 +1,7 @@
 body {
+    font-family: monospace;
     background-color: #353535;
     color: #30FFF2;
-    font-family: monospace;
     margin: 0;
     padding: 0;
     display: flex;
@@ -11,7 +11,7 @@ body {
 }
 
 .terminal {
-    background-color: #353535;
+    background-color: #000;
     border: 2px solid #30FFF2;
     border-radius: 5px;
     padding: 20px;
@@ -19,7 +19,7 @@ body {
 }
 
 .prompt {
-    color: #30FFF2;
+    color: #00FF00; /* Green */
     font-weight: bold;
 }
 
@@ -29,7 +29,7 @@ body {
 }
 
 .command-output {
-    background-color: #353535;
+    background-color: #000;
     border: 1px solid #30FFF2;
     border-radius: 5px;
     padding: 10px;
