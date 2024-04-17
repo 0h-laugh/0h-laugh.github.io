@@ -1,7 +1,7 @@
 body {
-    font-family: monospace;
-    background-color: #353535;
-    color: #30FFF2;
+    font-family: "Ubuntu Mono", monospace;
+    background-color: #2E3436; /* Dark gray */
+    color: #FFFFFF; /* White */
     margin: 0;
     padding: 0;
     display: flex;
@@ -11,29 +11,29 @@ body {
 }
 
 .terminal {
-    background-color: #000;
-    border: 2px solid #30FFF2;
+    background-color: #000000; /* Black */
+    border: 2px solid #4E9A06; /* Green */
     border-radius: 5px;
     padding: 20px;
-    width: 400px;
+    width: 600px;
 }
 
 .prompt {
-    color: #00FF00; /* Green */
+    color: #4E9A06; /* Green */
     font-weight: bold;
 }
 
 .command {
     margin-top: 10px;
-    color: #30FFF2;
+    color: #FFFFFF; /* White */
 }
 
 .command-output {
-    background-color: #000;
-    border: 1px solid #30FFF2;
+    background-color: #000000; /* Black */
+    border: 1px solid #4E9A06; /* Green */
     border-radius: 5px;
     padding: 10px;
     margin-top: 10px;
     white-space: pre-wrap;
-    color: #30FFF2;
+    color: #FFFFFF; /* White */
 }
