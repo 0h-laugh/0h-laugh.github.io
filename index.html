@@ -4,55 +4,171 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>0h_laugh / Personal Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            line-height: 1.6;
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #D5BAFD;
+            margin-bottom: 0.5rem;
+        }
+
+        h2 {
+            color: #D5BAFD;
+            font-size: 1.5rem;
+            margin: 2rem 0 1rem 0;
+            border-bottom: 1px solid #30363d;
+            padding-bottom: 0.5rem;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            color: #8b949e;
+        }
+
+        .description {
+            font-style: italic;
+            color: #6e7681;
+            margin-bottom: 2rem;
+        }
+
+        .tech-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+
+        .tech-item {
+            background-color: #21262d;
+            border: 1px solid #30363d;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            font-size: 0.9rem;
+        }
+
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+
+        .project {
+            background-color: #D5BAFD;
+            color: #0d1117;
+            padding: 0.8rem 1.2rem;
+            border-radius: 6px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: opacity 0.2s;
+        }
+
+        .project:hover {
+            opacity: 0.8;
+        }
+
+        .progress {
+            background-color: #161b22;
+            border-left: 3px solid #D5BAFD;
+            padding: 1rem;
+            margin: 1rem 0;
+        }
+
+        .progress-item {
+            margin-bottom: 0.5rem;
+        }
+
+        .label {
+            color: #D5BAFD;
+            font-weight: bold;
+        }
+
+        .secret {
+            color: #6e7681;
+            font-style: italic;
+        }
+
+        code {
+            background-color: #21262d;
+            padding: 0.2rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9rem;
+        }
+
+        .contact {
+            margin-top: 2rem;
+            text-align: center;
+            color: #8b949e;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 1rem;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .tech-list, .projects {
+                flex-direction: column;
+            }
+        }
+    </style>
 </head>
 <body>
+    <h1>Hello, I'm Olaf</h1>
+    <p class="subtitle"><sup>42</sup>Warsaw student • Full-stack <code>dev</code> • Automation specialist • Sales guide • And much more</p>
+    <p class="description">Feel free to check out my page and reach me out if needed!</p>
 
-<header>
-    <div class="container">
-        <h1>0h_laugh / Personal Website</h1>
-        <p>Programmer | Blogger | Future Cybersecurity Specialist</p>
-        <nav>
-            <ul>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#about">About me</a></li>
-                <!-- Add other navigation sections as needed -->
-            </ul>
-        </nav>
+    <h2>My Toolkit</h2>
+    <div class="tech-list">
+        <span class="tech-item">C</span>
+        <span class="tech-item">C++</span>
+        <span class="tech-item">HTML5</span>
+        <span class="tech-item">CSS3</span>
+        <span class="tech-item">PHP</span>
+        <span class="tech-item">JavaScript</span>
+        <span class="tech-item">Python</span>
+        <span class="tech-item">Notion</span>
+        <span class="tech-item">Photoshop</span>
+        <span class="tech-item">Make.com</span>
+        <span class="tech-item">n8n</span>
     </div>
-</header>
+    <p><code>and any needed...</code></p>
 
-<main>
-    <section id="blog">
-        <div class="container">
-            <h2>Blog</h2>
-            <!-- Add blog posts here -->
+    <h2>In Progress</h2>
+    <div class="progress">
+        <div class="progress-item">
+            <span class="label"><sup>42 Warsaw</sup>Common Core:</span> cpp_modules
         </div>
-    </section>
-
-    <section id="portfolio">
-        <div class="container">
-            <h2>Portfolio</h2>
-            <!-- Add portfolio projects here -->
-            <!-- blog posts here -->
+        <div class="progress-item">
+            <span class="label">Personal:</span> <span class="secret">shhh... it's a secret 🤫</span>
         </div>
-    </section>
-
-    <section id="about">
-        <div class="container">
-            <h2>About me</h2>
-            <!-- Add information about yourself here -->
-        </div>
-    </section>
-</main>
-
-<footer>
-    <div class="container">
-        <p>&copy; 2024 0h_laugh / Personal Website</p>
-        <!-- Add contact information or links to social media -->
     </div>
-</footer>
 
+    <div class="contact">
+        o.jastrz@gmail.com
+    </div>
+
+    <footer style="margin-top: 3rem; text-align: center; padding-top: 2rem; border-top: 1px solid #30363d; color: #6e7681;">
+        <p>&copy; 2025 0h_laugh / Personal Website</p>
+    </footer>
 </body>
 </html>
